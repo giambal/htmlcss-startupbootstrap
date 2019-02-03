@@ -2,4 +2,42 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.container{
+  width: 70vw;
+}
+
+nav{
+  width: 100vw;
+  max-width: 100%;
+  background-color: #2c3e50;
+}
+
+.navbar{
+  width: 70%;
+  margin: auto;
+  color: WHITE;
+  height: 80px;
+}
+
+.navbar-left{
+  float: left;
+  line-height: 80px;
+}
+
+.navbar-right{
+  float: right;
+  line-height: 80px;
+}
+
+.navbar::after{
+  content:"";
+  display: table;
+  clear: both;
+}
+
+.navbar span{
+  padding-left: 25px;
 }
